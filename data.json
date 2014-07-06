@@ -1,0 +1,22 @@
+{
+  'fruit': [
+    {
+      'name': 'apple',
+      'size': 'small'
+    },
+    {
+      'name': 'banana',
+      'size': 'medium'
+    }
+  ],
+  'veggies': [
+    {
+      'name': 'tomato',
+      'size': 'small'
+    },
+    {
+      'name': 'potato',
+      'size': 'big'
+    }
+  ]
+}
