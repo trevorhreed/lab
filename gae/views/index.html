@@ -1,8 +1,16 @@
 <!doctype html>
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>{{test}}</h1>
-  </body>
+<html class="no-js" lang="en" ng-app="lab">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0" />
+<link href='{{libCss}}' rel='stylesheet' />
+<link href='{{appCss}}' rel='stylesheet' />
+<title>Pax Copia</title>
+</head>
+<body ng-cloak>
+<script>var settings = {{settings}};</script>
+<div ui-view></div>
+<script src='{{libJs}}'></script>
+<script src='{{appJs}}'></script>
+</body>
 </html>
